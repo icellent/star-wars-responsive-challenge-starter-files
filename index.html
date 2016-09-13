@@ -1,22 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Star Wars Responsive Challenge</title>
+    <meta charset="UTF-8">
+    <title>Star Wars Responsive Challenge</title>
 
-  <!-- Responsive viewport tag, tells small screens that it's responsive -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Responsive viewport tag, tells small screens that it's responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Normalize.css, a cross-browser reset file -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+    <!-- Normalize.css, a cross-browser reset file -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-
-  <!-- Stylesheets -->
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles/grid.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- Stylesheets -->
 
 </head>
 <body>
-
+<header id="starWars" class="starWars">
+    <div class="row">
+        <div class="col-12">
+            <h1>Star Wars Characters</h1>
+            <p>Incomplete list</p>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <figure>
+                    <img src="images/rey_square.png" alt="rey">
+                    <figcaption>
+                        <h2>Ray</h2>
+                        <p>Protagonist from Tatooine</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-4">
+                <figure>
+                    <img src="images/finn_square.png" alt="finn">
+                    <figcaption>
+                        <h2>Finn</h2>
+                        <p>Storm Trooper, befriends Ray</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-4">
+                <figure>
+                    <img src="images/kylo_square.png" alt="kylo">
+                    <figcaption>
+                        <h2>Kylo</h2>
+                        <p>Main villain, or is he?</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <figure>
+                    <img src="images/poe_square.png" alt="poe">
+                    <figcaption>
+                        <h2>Poe</h2>
+                        <p>Neutral pilot</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-4">
+                <figure>
+                    <img src="images/chewbacca_square.png" alt="chewbacca">
+                    <figcaption>
+                        <h2>Chewbacca</h2>
+                        <p>A great first mate</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-4">
+                <figure>
+                    <img src="images/yoda_square.png" alt="yoda">
+                    <figcaption>
+                        <h2>yoda</h2>
+                        <p>Wise old Jedi master</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</main>
 </body>
 </html>

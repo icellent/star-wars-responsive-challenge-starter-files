@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+
+header.starWars {
+    background-color: #e7b85b;
+    padding: 2.5em 1.25em;
+    margin-bottom: 2.5em;
+}
+.starWars h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+figure {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin: 0 0 1.25em;
+}
+
+figcaption {
+    margin: 1.25em;
+}
+figcaption p {
+    margin-top: 0.625em;
+}
